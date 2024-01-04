@@ -16,7 +16,7 @@ const phoneslice=createSlice({
               "stock": 94,
               "brand": "Apple",
               "category": "smartphones",
-              "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+              "thumbnail": "https://i.ibb.co/WkQM9HR/google-pixel-6-1.jpg",
               "images": [
                   "https://i.dummyjson.com/data/products/1/1.jpg",
                   "https://i.dummyjson.com/data/products/1/2.jpg",
