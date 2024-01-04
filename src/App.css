@@ -1,89 +1,100 @@
-*{
-  background-color: antiquewhite;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-.card{
-  border: 1px solid;
-  display: block;
-  width: 38%;
-  flex-direction: column;
-  margin-left: 30%;
 
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
 }
-.content{
-  padding: 2px;
+
+.card {
+  border: 1px solid #bdbdbd;
+  display: flex;
+  flex-direction: column;
+  width: 38%;
+  margin: 50px auto;
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+  padding: 16px;
   text-align: center;
-  
 }
-.btn{
+
+.btn {
   display: flex;
   justify-content: center;
 }
-.abtn ,.rbtn{
+
+.abtn,
+.rbtn,
+.dbtn,
+.cbtn {
   height: 30px;
-  width: 30px;
+  width: 100px;
   border-radius: 5px;
   margin: 10px;
+  cursor: pointer;
 }
-.abtn{
-  background-color: blue;
-} 
 
-.rbtn{
-  background-color: red;
+.abtn {
+  background-color: #2874f0; 
+  color: #fff;
 }
-img{
-  height: 310px;
-  width: 500px;
-  
+
+.rbtn {
+  background-color: #ff4444;
+  color: #fff;
 }
-.dbtn{
-  background-color: rgb(237, 68, 68);
-  color: white;
+
+.dbtn {
+  background-color: #ff4444;
+  color: #fff;
   border: none;
-  width: 70px;
-  height: 30px;
-  border-radius: 3px;
-}
-.dbtn:hover{
-  background-color: red;
 }
 
-.end{
+.dbtn:hover {
+  background-color: #d32f2f; 
+}
 
-  margin-right:100px ;
-  padding: 30px;
+.cbtn {
+  background-color: #2874f0; 
+  color: #fff;
+  border: none;
+}
+
+.cbtn:hover {
+  border: 2px solid #2874f0; 
+}
+
+.end {
+  margin: 20px 20px;
+  padding: 20px;
   width: 300px;
-  margin-left: 180px;
 }
-.bottom{
- display: flex;
- align-items: center;
- justify-content: end;
- padding-bottom: 100px;
- padding-top: 30px;
-}
-.cbtn{
-  background-color: rgb(57, 9, 233);
-  width: 280px;
-  height: 30px;
-  border: none;
-  color: white;
 
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 20px;
 }
-.cbtn:hover{
-  border: 3px solid rgb(20, 2, 2);
-}
-.top{
+
+.top {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: rgb(219, 18, 18);
-  padding: 40px;
+  color: #dd2c00; 
+  padding: 20px;
   margin-bottom: 10px;
 }
-@media screen and (max-width:900px) {
-  .card{
-      display: flex;
-      flex-direction: column;
+
+@media screen and (max-width: 900px) {
+  .card {
+    width: 80%;
   }
 }
