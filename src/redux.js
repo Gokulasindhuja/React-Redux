@@ -19,7 +19,7 @@ const phoneslice=createSlice({
               "thumbnail": "https://i.ibb.co/dj9DCXT/samsung-galaxy-s21-5g-thumbnail.jpg",
               "images": [
                   "https://i.ibb.co/9bQgFkC/1.jpg",
-                  "https://i.ibb.co/3F37vbx/2.jpg",
+                  "https://i.ibb.co/4R2YKKD/2.jpg",
                   "https://i.ibb.co/6nv9Qsy/3.jpg",
                   "https://i.ibb.co/k9ZkBhC/4.jpg",
                   "https://i.ibb.co/dj9DCXT/samsung-galaxy-s21-5g-thumbnail.jpg"
